@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		144484CF2F9222B1008EE2E1 /* AFOLANUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 144484CE2F9222B1008EE2E1 /* AFOLANUpload.m */; };
-		144484D02F9222B1008EE2E1 /* AFOLANUpload.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 144484CD2F9222B1008EE2E1 /* AFOLANUpload.h */; };
+		144484D92F922334008EE2E1 /* AFOLANUploadServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 144484D82F922333008EE2E1 /* AFOLANUploadServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				144484D02F9222B1008EE2E1 /* AFOLANUpload.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +24,9 @@
 
 /* Begin PBXFileReference section */
 		144484CA2F9222B1008EE2E1 /* libAFOLANUpload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFOLANUpload.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		144484CD2F9222B1008EE2E1 /* AFOLANUpload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOLANUpload.h; sourceTree = "<group>"; };
-		144484CE2F9222B1008EE2E1 /* AFOLANUpload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOLANUpload.m; sourceTree = "<group>"; };
+		144484D62F92232A008EE2E1 /* AFOLANUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOLANUpload.h; sourceTree = "<group>"; };
+		144484D72F922333008EE2E1 /* AFOLANUploadServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOLANUploadServer.h; sourceTree = "<group>"; };
+		144484D82F922333008EE2E1 /* AFOLANUploadServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOLANUploadServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +59,9 @@
 		144484CC2F9222B1008EE2E1 /* AFOLANUpload */ = {
 			isa = PBXGroup;
 			children = (
-				144484CD2F9222B1008EE2E1 /* AFOLANUpload.h */,
-				144484CE2F9222B1008EE2E1 /* AFOLANUpload.m */,
+				144484D62F92232A008EE2E1 /* AFOLANUpload.h */,
+				144484D72F922333008EE2E1 /* AFOLANUploadServer.h */,
+				144484D82F922333008EE2E1 /* AFOLANUploadServer.m */,
 			);
 			path = AFOLANUpload;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				144484CF2F9222B1008EE2E1 /* AFOLANUpload.m in Sources */,
+				144484D92F922334008EE2E1 /* AFOLANUploadServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +251,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -263,6 +264,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
