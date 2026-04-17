@@ -1,0 +1,10 @@
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+
+# Xcode auto-generated workspace inside .xcodeproj
+*.xcodeproj/project.xcworkspace/
