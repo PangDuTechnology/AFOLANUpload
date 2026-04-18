@@ -14,9 +14,6 @@
 #import <sys/types.h>
 #import <unistd.h>
 
-double AFOLANUploadVersionNumber = 0.0;
-const unsigned char AFOLANUploadVersionString[] = "0.0.1";
-
 @interface AFOLANUploadClientContext : NSObject
 @property (nonatomic, assign) int clientFD;
 @property (nonatomic, strong) dispatch_source_t readSource;
