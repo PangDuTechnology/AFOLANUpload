@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AFOLANUpload"
-  s.version      = "0.0.5"
+  s.version      = "0.0.1"
   s.summary      = "Upload videos via LAN web page."
   s.description  = "A local HTTP upload component for AFOPlayer. It serves a browser page and receives selected video files over LAN."
   s.homepage     = "https://github.com/PangDuTechnology/AFOLANUpload.git"
