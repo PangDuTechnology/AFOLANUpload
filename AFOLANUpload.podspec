@@ -6,7 +6,6 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/PangDuTechnology/AFOLANUpload.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "PangDu" => "xian312117@gmail.com" }
-  s.platform     = :ios, "13.0"
   s.ios.deployment_target = "13.0"
   s.source       = { :git => "https://github.com/PangDuTechnology/AFOLANUpload.git", :tag => s.version.to_s }
   s.source_files = "AFOLANUpload/*.{h,m}"
